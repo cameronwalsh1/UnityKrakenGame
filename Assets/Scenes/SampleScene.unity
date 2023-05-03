@@ -199,7 +199,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 336066107}
-  - component: {fileID: 336066106}
+  - component: {fileID: 336066108}
   m_Layer: 0
   m_Name: LevelController
   m_TagString: Untagged
@@ -207,22 +207,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &336066106
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 336066105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 536f29ec6bb7cd84abf5976e645e198e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _flashImage: {fileID: 806781668}
-  _newColor: {r: 0, g: 0.17539406, b: 1, a: 1}
-  _timeLength: 1
-  _opacity: 0.5
 --- !u!4 &336066107
 Transform:
   m_ObjectHideFlags: 0
@@ -238,6 +222,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &336066108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336066105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 536f29ec6bb7cd84abf5976e645e198e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _flashImage: {fileID: 806781668}
+  key: space
+  _newColor: {r: 1, g: 0, b: 0, a: 1}
+  _timeLength: 1
+  _opacity: 0.5
 --- !u!1 &666654404
 GameObject:
   m_ObjectHideFlags: 0
